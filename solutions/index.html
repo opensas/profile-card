@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      font-family: 'Kumbh Sans', sans-serif;
+      background-color: hsl(185, 75%, 39%);
+      box-sizing: border-box;
+    }
+    main {
+      max-width: 368px;
+      background: white;
+      margin: auto;
+      margin-top: 158px;
+      border-radius: 15px;
+      box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.4);
+    }
+    div.card {
+      /* width: 328px; */
+      /* margin: 0px auto; */
+    }
+
+    div.header {
+      background-image: url(./images/bg-pattern-card.svg);
+      height: 140px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <header>hola
+        <div class="avatar"></div>
+      </header>
+      <section>
+        <h2>
+          Victor Crest
+          <div class="age">26</div>
+        </h2>
+        <div class="city">London</div>
+      </section>
+      <footer>
+        <section class="social-links">
+          <div class="col">
+            <h2>80K</h2>
+            <small>Followers</small>
+          </div>
+            
+          <div class="col">
+            <h2>803K</h2>
+            <small>Likes</small>
+          </div>
+          
+          <div class="col">
+            <h2>1.4K</h2>
+            <small>Photos</small>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+</body>
+</html>
